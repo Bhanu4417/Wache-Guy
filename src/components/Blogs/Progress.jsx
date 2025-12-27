@@ -24,7 +24,7 @@ const Progress = ({
         shadow-[0_8px_30px_rgba(0,0,0,0.35)]
       "
     >
-      {/* Header */}
+
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-white font-semibold">
           <span className="opacity-90">{icon}</span>
@@ -33,13 +33,11 @@ const Progress = ({
         <span className="text-white/40 text-sm">⟳</span>
       </div>
 
-      {/* Subtitle */}
       <div className="text-white/70 text-sm mt-1">
         {subtitle}:{" "}
         <span className="text-white font-medium">{value}</span>
       </div>
 
-      {/* Time row */}
       <div className="flex justify-between text-white/45 text-xs mt-2">
         <span>
           From {startTime} – To {endTime}
@@ -49,7 +47,7 @@ const Progress = ({
         </span>
       </div>
 
-      {/* Progress bar */}
+
       <div className="mt-3 h-2 w-full rounded-full bg-white/10 overflow-hidden">
         <div
           className="

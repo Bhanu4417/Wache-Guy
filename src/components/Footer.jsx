@@ -3,10 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="">
-  {/* top divider */}
+
   <div className="h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
 
-  {/* footer content */}
   <div
     className="
       py-6
