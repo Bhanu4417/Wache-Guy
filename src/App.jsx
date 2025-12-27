@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Quests from "./components/Quests";
 import Blogs from "./components/Blogs";
-import Blog0 from "./components/Blogs/blog0";
+import Blog0 from "./components/Blogs/Blog0";
 import Footer from "./components/Footer";
 function App() {
   return (
