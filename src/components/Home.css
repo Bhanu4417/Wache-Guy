@@ -1,0 +1,12 @@
+@import "tailwindcss";
+*{
+  font-family:'Inter' ;
+}
+::selection {
+  background: rgba(255, 255, 255, 0.18); /* soft grey highlight */
+  color: #ffffff; /* keep text white */
+}
+
+body{
+  background-color: black;
+}
