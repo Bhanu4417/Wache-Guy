@@ -29,6 +29,7 @@ const Blogs = () => {
     <img
       className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
       src="\Blogs\code-svgrepo-com.svg"
+      loading="lazy"
     />
     : 0
   </div></div>

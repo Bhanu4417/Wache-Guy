@@ -15,6 +15,7 @@ const Blog0 = () => {
     <img
       className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
       src="/Blogs/code-svgrepo-com.svg"
+      loading="lazy"
     />
     : 0
   </div></div>
@@ -85,6 +86,24 @@ title="Moeny Earned"
   max={5}
   color="bg-green-500"
 />
+</div>
+<div className="md:mt-8 mt-6">
+<Progress
+  title="Instagram"
+  icon={
+    <img
+      src="/Blogs/instagram-1-svgrepo-com.svg"
+      alt="Instagram"
+      className="w-[1.1em] h-[1.1em] inline-block"
+    />
+  }
+  subtitle="Time For It"
+  startTime="0:00 PM"
+  endTime="0:00 PM"
+  value={0}
+  max={5}
+/>
+
 </div>
 <div className="text-[white] md:text-[15px] text-[15px] mt-9">
     So looking at the progress bar u can see today I didn't do much but consistency is the key.
