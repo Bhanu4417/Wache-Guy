@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Blogs.css"
 import { Link } from "react-router-dom"
 const Blogs = () => {
+  const [imgLoaded, setImgLoaded] = useState(false)
+
   return (
     <>
      <div className="flex flex-col min-h-[calc(100dvh-80px)] max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 pt-20 pb-24">
@@ -16,10 +18,16 @@ const Blogs = () => {
     />
   </div></div>
 <div className="h-px w-full bg-white/15 md:mt-7 mt-4" />
+<img
+  src="/Blogs/THE QUEST.svg"
+  alt=""
+  className="hidden"
+  onLoad={() => setImgLoaded(true)}
+/>
 
 
  <div className="blogposts grid md:grid-cols-2 grid-cols-1 mx-auto md:gap-10 gap-10 md:mt-7 mt-6 ">
-<Link to="/blogs/blog0" className="card   bg-white/5
+{ imgLoaded && <Link to="/blogs/blog0" className="card   bg-white/5
   backdrop-blur-md
   border border-white/15
   shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-4 md:py-3 px-2 py-2 cursor-pointer"><img className='md:w-100 h-auto' src="/Blogs/THE QUEST.svg" />
@@ -50,7 +58,7 @@ const Blogs = () => {
   </div></div></div>
   <div className="day text-white md:text-[26px] text-[20px] font-medium md:font-bold md:mt-3 mt-2">Day 0 - Starting Things Off</div>
   <div className="date text-[#71717b]">27 December 2025</div>
-</Link>
+</Link>}
 
 </div>
   </div>
