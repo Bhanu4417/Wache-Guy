@@ -49,7 +49,7 @@ const Blogs = () => {
     : 0
   </div></div></div>
   <div className="day text-white md:text-[26px] text-[20px] font-medium md:font-bold md:mt-3 mt-2">Day 0 - Starting Things Off</div>
-  <div className="date text-[#71717b]">28 December 2025</div>
+  <div className="date text-[#71717b]">27 December 2025</div>
 </Link>
 
 </div>

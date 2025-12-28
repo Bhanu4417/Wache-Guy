@@ -7,7 +7,7 @@ const Blog0 = () => {
   <>
   <div className="flex flex-col min-h-[calc(100dvh-80px)]
  max-w-[720px] mx-auto px-4 sm:px-6 md:px-8 pt-20 pb-24">
-  <div className="text-[#949494] md:mt-1 mt-2 text-[14px] md:text-[16px]">Published on December 28, 2025</div>
+  <div className="text-[#949494] md:mt-1 mt-2 text-[14px] md:text-[16px]">Published on December 27, 2025</div>
 <div className="text-white text-[34px] font-bold md:text-[48px] md:mt-3 mt-2">Starting Things Off !</div>
 <div className="flex gap-2">
  <div className="flex items-center md:mt-2 mt-2">
