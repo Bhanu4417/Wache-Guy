@@ -7,8 +7,8 @@ const Blog0 = () => {
   <>
   <div className="flex flex-col min-h-[calc(100dvh-80px)]
  max-w-[720px] mx-auto px-4 sm:px-6 md:px-8 pt-20 pb-24">
-  <div className="text-[#949494] md:mt-1 mt-2 text-[14px] md:text-[16px]">Published on December 27, 2025</div>
-<div className="text-white text-[34px] font-bold md:text-[48px] md:mt-3 mt-2">Starting Things Off !</div>
+  <div className="text-[#949494] md:mt-1 mt-2 text-[14px] md:text-[16px]">Published on December 29, 2025</div>
+<div className="text-white text-[34px] font-bold md:text-[48px] md:mt-3 mt-2">Day 1 - Not a great day!</div>
 <div className="flex gap-2">
  <div className="flex items-center md:mt-2 mt-2">
   <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
@@ -17,7 +17,7 @@ const Blog0 = () => {
       src="/Blogs/code-svgrepo-com.svg"
       loading='lazy'
     />
-    : 7
+    : 8
   </div></div>
    <div className="flex items-center md:mt-2 mt-2">
   <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
@@ -35,9 +35,9 @@ const Blog0 = () => {
     />
   : 0
   </div></div></div>
-<img className='md:mt-6 mt-3' src="/Blogs/THE QUEST.svg" />
-<div className="text-white text-[20px] md:mt-3 mt-2">This is the day 0 of my challenge.</div>
-<div className="text-[white] md:text-[18px] text-[15px] mt-3"><p>So today I didn't do much I started working on my next project the music chat app which allows you to chat,play and see analysis about how much time u listened to the music today I just made the login page and connected the backend to spotify API, I didn't do C++ at all.</p></div>
+<img className='md:mt-6 mt-3' src="/Blogs/THE QUEST 1.svg" />
+<div className="text-white text-[20px] md:mt-3 mt-2">This is the day 1 of my challenge.</div>
+<div className="text-[white] md:text-[18px] text-[15px] mt-3"><p>So today not at all a great day first of all spotify didn't gave me access to its spotify developer API, 2nd the backend of my music app made my day absolute hell like express then connecting mongo db to it and then routing I understodd that rushing up things won't make m good so taking 10 day break will do some more projects on mongo and express backend then comeback to music app</p></div>
 <div className="md:mt-8 mt-6">
     <Progress
   title="Slept for"
@@ -70,8 +70,8 @@ title="Project Work"
   subtitle="Project Time"
   startTime="11:00 AM"
   endTime="1:00 PM"
-  value={7.0}
-  max={5}
+  value={8.0}
+  max={8}
   color="bg-green-500"
 />
 </div>
@@ -96,13 +96,13 @@ title="Moeny Earned"
     />
   }
   subtitle="Time For It"
-  value={4.5}
+  value={2}
   max={5}
 />
 
 </div>
 <div className="text-[white] md:text-[15px] text-[15px] mt-9">
-    So looking at the progress bar u can see today I didn't do much but consistency is the key.
+    So not a good day but will keep going and update it here daily.
 </div>
 <div className="text-[white] md:text-[30px] text-[20px] mt-10">See you guys tomorrow 👋</div>
 <Link to="/blogs"

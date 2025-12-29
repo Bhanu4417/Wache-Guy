@@ -38,7 +38,7 @@ const Blogs = () => {
       className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
       src="\Blogs\code-svgrepo-com.svg"
     />
-    : 0
+    : 7
   </div></div>
    <div className="flex items-center md:mt-2 mt-2">
   <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
@@ -58,6 +58,38 @@ const Blogs = () => {
   </div></div></div>
   <div className="day text-white md:text-[26px] text-[20px] font-medium md:font-bold md:mt-3 mt-2">Day 0 - Starting Things Off</div>
   <div className="date text-[#71717b]">27 December 2025</div>
+</Link>}
+{ imgLoaded && <Link to="/blogs/blog1" className="card   bg-white/5
+  backdrop-blur-md
+  border border-white/15
+  shadow-[0_8px_30px_rgba(0,0,0,0.25)] md:px-4 md:py-3 px-2 py-2 cursor-pointer"><img className='md:w-100 h-auto' src="/Blogs/THE QUEST 1.svg" />
+<div className="flex gap-2">
+ <div className="flex items-center md:mt-2 mt-2">
+  <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
+    <img
+      className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
+      src="\Blogs\code-svgrepo-com.svg"
+    />
+    : 8
+  </div></div>
+   <div className="flex items-center md:mt-2 mt-2">
+  <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
+    <img
+      className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
+      src="Blogs/money-with-wings-svgrepo-com.svg"
+    />
+    : 0
+  </div></div>
+   <div className="flex items-center md:mt-2 mt-2">
+  <div className="flex items-center gap-2 text-black bg-white w-fit px-2 py-1 font-semibold rounded-[5px]">
+    <img
+      className="w-[1.1em] h-[1.1em] md:w-[1.3em] md:h-[1.3em]"
+      src="Blogs/chip-processor-svgrepo-com.svg"
+    />
+    : 0
+  </div></div></div>
+  <div className="day text-white md:text-[26px] text-[20px] font-medium md:font-bold md:mt-3 mt-2">Day 1 - Not a great day!</div>
+  <div className="date text-[#71717b]">29 December 2025</div>
 </Link>}
 
 </div>

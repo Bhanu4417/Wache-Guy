@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Quests from "./components/Quests";
 import Blogs from "./components/Blogs";
 import Blog0 from "./components/Blogs/Blog0";
+import Blog1 from "./components/Blogs/Blog1";
 import Footer from "./components/Footer";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/quests" element={<Quests />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/blog0" element={<Blog0 />} />
+        <Route path="/blogs/blog1" element={<Blog1 />} />
       </Routes>
 
       <Footer /></div>
